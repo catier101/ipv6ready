@@ -87,137 +87,104 @@
 <a name="top" id="top">
     <div class="jumbotron text-white">
         <div class="container">
-            <h1 class="display-3">Technical Information</h1>
+            <h1 class="display-3">IPv6 Core Protocols</h1>
         </div>
     </div>
 </a>
 
 <div class="container">
-    <h2><b>IPv6 Ready Logo Phase-2</b></h2>
-    <p>(Test Specifications and Test Tools</p>
+    <p class="t-link">
+        <a href="../docs/Core_Conformance_Latest.pdf">
+            <i class="fa fa-file-o" aria-hidden="true"></i>
+            IPv6 Core Protocols Test Specification (Version 4.0.7)</a></p>
+    <p class="t-link">
+        <a href="../docs/Core_Interoperability_Latest.pdf">
+            <i class="fa fa-file-o" aria-hidden="true"></i>
+            IPv6 Core Protocols Interoperability Test Scenario(Version 4.0.4)</a></p>
+    <p class="t-link">
+        <a href="../docs/Core_Interoperability_Appendix_Latest.pdf">
+            <i class="fa fa-file-o" aria-hidden="true"></i>
+            Appendix IPv6 Core Protocols Interoperability Test Scenario(Version 4.0.2)</a></p>
+    <p class="t-link">
+        <a href="https://www.iol.unh.edu/solutions/test-tools/intact">
+            <i class="fa fa-globe" aria-hidden="true"></i>
+            Self-test Tools (IOL INTACT)</a></p>
+    <p><b>NOTE:</b> The IPv6 Core Interoperability test requires testing against 4 different Vendors with different IPv6 Stacks. The counter implementations must be 2 Routers and 2 Hosts.</p>
+    <hr>
+    <br>
+    <h3>The following is an example of an acceptable application. </h3>
+    <h4 class = "t_head"><b>Router</b></h4>
+    <table class="table">
+        <tbody>
+            <tr>
+                <td><b>Vendor A:</b> The FreeBSD Project</td>
+                <td><b>Device Name:</b> Free BSD</td>
+            </tr>
 
-    <h3>Target</h3>
-    <ul>
-        <li>
-            <p><a href="ipv6-core-protocols.html">IPv6 Core Protocols</a></p>
-            <ul>
-                <li>Router</li>
-                <li>Host</li>
-            </ul>
-        </li>
-        <br>
+            <tr>
+                <td><b>Vendor B:</b> The NetBSD Project</td>
+                <td><b>Device Name:</b> NetBSD</td>
+            </tr>
+        </tbody>
+    </table>
 
-        <li>
-            <p><a href="DHCPv6.html">DHCPv6</a></p>
-            <ul>
-                <li>Client</li>
-                <li>Server</li>
-                <li>Relay agent</li>
-            </ul>
-        </li>
-        <br>
+    <h4 class = "t_head"><b>Host</b></h4>
+    <table class="table">
+        <tbody>
+            <tr>
+                <td><b>Vendor C:</b> Kernel.org</td>
+                <td><b>Device Name:</b> Linux Kernel</td>
+            </tr>
 
-        <li>
-            <p><a href="IPsec.html">IPsec</a></p>
-            <ul>
-                <li>End-Node</li>
-                <li>Security Gateway</li>
-            </ul>
-        </li>
-        <br>
+            <tr>
+                <td><b>Vendor D:</b> The OpenBSD Projects</td>
+                <td><b>Device Name:</b> OpenBSD</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
 
-        <li>
-            <p><a href="SNMP.html">SNMP</a></p>
-            <ul>
-                <li>Agent</li>
-                <li>Manager</li>
-            </ul>
-        </li>
-        <br>
+    <h3>The following is NOT an acceptable application. </h3>
 
-        <li>
-            <p><a href="cpe.html">CE Router</a></p>
-            <ul>
-                <li>Router (CPE, Home Gateway, Wireless AP)</li>
-            </ul>
-        </li>
-        <br>
+    <h4 class = "t_head"><b>Router</b></h4>
+    <table class="table">
+        <tbody>
+        <tr>
+            <td><b>Vendor A:</b> The Fedora Project</td>
+            <td><b>Device Name:</b> Fedora Core</td>
+        </tr>
 
-        <li>
-            <p><a href="6lowpan.html">6LoWPAN </a>(Experimental)</p>
-            <ul>
-                <li>Host</li>
-                <li>Router</li>
-            </ul>
-        </li>
-        <br>
+        <tr>
+            <td><b>Vendor B:</b> The NetBSD Project</td>
+            <td><b>Device Name:</b> NetBSD</td>
+        </tr>
+        </tbody>
+    </table>
 
-        <li>
-            <p><a href="ikev2.html">IKEv2 </a>(Experimental)</p>
-            <ul>
-                <li>End-Node</li>
-                <li>Security Gateway</li>
-            </ul>
-        </li>
-        <br>
+    <h4 class = "t_head"><b>Host</b></h4>
+    <table class="table">
+        <tbody>
+        <tr>
+            <td><b>Vendor C:</b> Kernel.org</td>
+            <td><b>Device Name:</b> Linux Kernel</td>
+        </tr>
 
-        <li>
-            <p><a href="">IMS UE </a>(Experimental)</p>
-            <ul>
-                <li>UE</li>
-            </ul>
-        </li>
-        <br>
+        <tr>
+            <td><b>Vendor D:</b> Ubuntu</td>
+            <td><b>Device Name:</b> Ubuntu</td>
+        </tr>
+        </tbody>
+    </table>
 
-        <li>
-            <p><a href="">MIPv6 </a>(Experimental)</p>
-            <ul>
-                <li>Correspondent Node</li>
-                <li>Home Agent</li>
-                <li>Mobile Node</li>
-            </ul>
-        </li>
-        <br>
-
-        <li>
-            <p><a href="">MLDv2 </a>(Experimental)</p>
-            <ul>
-                <li>Router</li>
-                <li>Listener</li>
-            </ul>
-
-        </li>
-        <br>
-
-        <li>
-            <p><a href="">NEMO </a>(Experimental)</p>
-            <ul>
-                <li>Home Agent</li>
-                <li>Mobile Router</li>
-            </ul>
-        </li>
-        <br>
-
-        <li>
-            <p><a href="">SIP </a>(Experimental)</p>
-            <ul>
-                <li>UA</li>
-                <li>Endpoint</li>
-                <li>B2BUA</li>
-                <li>Proxy</li>
-                <li>Registrar</li>
-            </ul>
-        </li>
-    </ul>
 
 
     <hr>
 
 
     <div class="col-md-12 fixed-bottom float-right">
-    <a class="btn btn-danger scroll_ubtn" id = "scroll_ubtn" href="#" type = "button">
-        <i class="fa fa-chevron-up"></i>
-    </a>
+        <a class="btn btn-danger scroll_ubtn" id = "scroll_ubtn" href="#" type = "button">
+            <i class="fa fa-chevron-up"></i>
+        </a>
     </div>
 </div>
 
