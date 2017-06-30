@@ -1,0 +1,100 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:20px;
+}
+
+h1 {
+    font-family: 'Monda', sans-serif;
+    text-align: center;
+    letter-spacing: .5rem;
+}
+
+.btn {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align:center;
+}
+
+a {
+    color:dodgerblue;
+}
+
+/* TOP OF PAGE CONTENT */
+
+.jumbotron {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-image: url("../imgs/ph2.jpg");
+    background-size: cover;
+    min-height:30vh;
+}
+
+.nav-link{
+    font-size:20px;
+}
+
+#scroll_ubtn{
+    position:fixed;
+    right:20px;
+    bottom: 20px;
+}
+
+/* NEWS PAGE*/
+.yearbtn {
+    font-size:20px;
+    color:black;
+    margin-top:1rem;
+    font-weight:bold;
+}
+
+/* APPLY PAGE */
+.applypg {
+    font-size:23px;
+}
+
+.applybtn {
+    font-weight:bold;
+    font-size:20px;
+    /*color:#d9534f;*/
+    color:white;
+}
+
+.applybtns a {
+    text-decoration: none;
+}
+
+.sticker {
+    height:125px;
+    width:100px;
+    padding-right:5px;
+    margin-top:1rem;
+}
+
+/* DOCUMENTS */
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}

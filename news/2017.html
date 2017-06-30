@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../imgs/logo_transparent.png">
+
+    <title>News</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Open+Sans+Condensed:300|Monda:700" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../css/content.css" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a href="../index.html"><img src="../imgs/logo_transparent.png" style="width:40px; height:40px;"></a>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../about.html">About</a>
+            </li>
+            <li class="nav-item active">
+                <div class="dropdown">
+                    <button class="btn btn-link dropdown-toggle nav-link active" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        News
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item active" href="2017.html">2017</a>
+                        <a class="dropdown-item" href="2016.html">2016</a>
+                        <a class="dropdown-item" href="2015.html">2015</a>
+                        <a class="dropdown-item" href="2014.html">2014</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="../apply.html">Apply</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="../documents.html">Documents</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="../contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="../faq.html">FAQ</a>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <button class="btn btn-link dropdown-toggle nav-link" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Approved Labs
+                    </button>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="http://www.biigroup.com/">BII (China)</a>
+                        <a class="dropdown-item" href="http://www.cablelabs.com/specs/certification/">CableLabs (US)</a>
+                        <a class="dropdown-item" href="http://interop.ipv6.org.tw/">CHT-TL (Taiwan)</a>
+                        <a class="dropdown-item" href="http://criterionnetworklabs.com/">CNLabs (India)</a>
+                        <a class="dropdown-item" href="http://www.irisa.fr/tipi/wiki/doku.php">IRISA (Europe)</a>
+                        <a class="dropdown-item" href="http://ipv6.jate.jp/">JATE (Japan)</a>
+                        <a class="dropdown-item" href="http://www.tec.gov.in/">TEC (India)</a>
+                        <a class="dropdown-item" href="http://test.tta.or.kr/English/">TTA (Korea)</a>
+                        <a class="dropdown-item" href="https://www.iol.unh.edu/testing/ip/ipv6">UNH-IOL (US)</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+
+<a name="top" id="top">
+    <div class="jumbotron text-white">
+        <div class="container">
+            <h1 class="display-3">2017 News</h1>
+        </div>
+    </div>
+</a>
+
+<div class="container">
+    <h3 class="news-title"><b>2017-03-20</b> | IPsec Major Public Review</h3>
+    <hr>
+    <p>The IPsec Conformance Specification and Interoperability Scenario have undergone a Major Version.</p>
+    <p>The documents are under public review and dry run through <b>Monday 24th April 2017</b> with a planned release on <b>May 15, 2017</b>. </p>
+
+    <p>Summary of Changes:</p>
+    <ul>
+        <li>Remove Obsolete algorithms, and Add Recommended algorithms</li>
+        <li>Renumber test cases and reorganize sections to consolidate ESP test cases and simplify future updates</li>
+        <li>Require IKEv2 keying by default</li>
+    </ul>
+    <p>The updated  test documents can be found on the <a href="pr-ikev2ipsec.html">Public Review Page</a></p>
+    <br>
+    <h3 class="news-title"><b>2017-03-20</b> | Now Available: IPv6 Ready Core Logo (New Minor Revision 4.0.7)</h3>
+    <hr>
+    <p>The <a href="ipv6-core-protocol.html">IPv6 Ready Core Conformance Test Specification</a> has been updated with some minor changes as per the below:</p>
+    <ul>
+        <li>Added a possible problem to 3.1.2B,D, 3.1.3 I-J, 3.1.4 H-I for devices that don’t support EUI-64 address due to privacy concerns.</li>
+        <li>Removed requirement for the unused field in a Time Exceeded message (1.3.2B-D, 5.1.5A-B) to be zero due to RFC 4884.</li>
+        <li>Added a requirement to check the Hop Limit of 255 in IPv6 Header of Redirect.</li>
+        <li>Updated 4.1.8 to increase the hop limit due to attack vector if the device is forced to lower the hop limit.</li>
+        <li>Added a possible problem to 2.1.1C for RFC 7048 support.</li>
+        <li>Updated Unknown Destination Header from 7 to 17 since 7 has been allocated.</li>
+        <li>Removed Common Test Setup from 3.2.5.</li>
+    </ul>
+    <hr>
+    <br>
+    <h3 class="news-title"><b>2017-01-18</b> | Examination Fee Announcement</h3>
+    <p><b>IMPORTANT NOTE:</b> The IPv6 Ready Logo Committee would like to announce that CE Router applications received will be assessed a $1500 US dollar examination fee and all other applications will be assessed a $500 US dollar examination fee. The Examination lab may choose to waive this fee if the test results were performed at an approved lab as the fee may be covered under testing service fees.</p>
+
+    <div class="col-md-12 fixed-bottom float-right"></div>
+    <a class="btn btn-danger scroll_ubtn" id = "scroll_ubtn" href="#" type = "button">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+</div>
+
+</div> <!-- /container -->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="../js/scroll.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
