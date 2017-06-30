@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="114c8032-d6d1-4533-be1b-593f3863aa92" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/2014.html" afterPath="$PROJECT_DIR$/news/2014.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/2015.html" afterPath="$PROJECT_DIR$/news/2015.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/2016.html" afterPath="$PROJECT_DIR$/news/2016.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/2017.html" afterPath="$PROJECT_DIR$/news/2017.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apply.html" afterPath="$PROJECT_DIR$/apply.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,11 +17,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="apply.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="apply.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apply.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="154" column="18" lean-forward="false" selection-start-line="154" selection-start-column="18" selection-end-line="154" selection-end-column="18" />
+            <state relative-caret-position="163">
+              <caret line="106" column="28" lean-forward="false" selection-start-line="106" selection-start-column="28" selection-end-line="106" selection-end-column="28" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -72,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2017.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news/2017.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="487">
@@ -114,12 +111,12 @@
         <option value="$PROJECT_DIR$/apply/appsteps.html" />
         <option value="$PROJECT_DIR$/apply/technical-info.html" />
         <option value="$PROJECT_DIR$/news/pr-ikev2ipsec.html" />
-        <option value="$PROJECT_DIR$/apply.html" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/news/2014.html" />
         <option value="$PROJECT_DIR$/news/2015.html" />
         <option value="$PROJECT_DIR$/news/2016.html" />
         <option value="$PROJECT_DIR$/news/2017.html" />
+        <option value="$PROJECT_DIR$/apply.html" />
       </list>
     </option>
   </component>
@@ -294,12 +291,12 @@
       <workItem from="1498592327661" duration="5120000" />
       <workItem from="1498597992823" duration="21373000" />
       <workItem from="1498742177857" duration="11700000" />
-      <workItem from="1498827752996" duration="1280000" />
+      <workItem from="1498827752996" duration="1423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41097000" />
+    <option name="totallyTimeSpent" value="41240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1537" height="912" extended-state="6" />
@@ -537,16 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apply.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="154" column="18" lean-forward="false" selection-start-line="154" selection-start-column="18" selection-end-line="154" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -616,6 +603,16 @@
         <state relative-caret-position="487">
           <caret line="137" column="18" lean-forward="false" selection-start-line="137" selection-start-column="18" selection-end-line="137" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="106" column="28" lean-forward="false" selection-start-line="106" selection-start-column="28" selection-end-line="106" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
