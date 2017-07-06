@@ -85,7 +85,20 @@ a {
     font-weight:bold;
 }
 
-/* DOCUMENTS */
+
+/* F A Q */
+.faq li {
+    margin-top:2px;
+}
+
+.card-header a {
+    color:black;
+}
+
+.section {
+    margin-bottom:30px;
+    text-align:center;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
