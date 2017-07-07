@@ -54,18 +54,7 @@ a {
 
 /* APPLY PAGE */
 .applypg {
-    font-size:23px;
-}
-
-.applybtn {
-    font-weight:bold;
-    font-size:20px;
-    /*color:#d9534f;*/
-    color:white;
-}
-
-.applybtns a {
-    text-decoration: none;
+    font-size:21px;
 }
 
 .sticker {
@@ -73,6 +62,15 @@ a {
     width:100px;
     padding-right:5px;
     margin-top:1rem;
+}
+
+.applypg .card {
+    margin-top:10px;
+}
+
+.applypg a {
+    color:#5a5a5a;
+    text-decoration: none;
 }
 
 /* TECH INFO PAGES */
@@ -107,6 +105,20 @@ a {
     margin-bottom:30px;
     text-align:center;
 }
+
+/* HOVER TRANSITION */
+.transition {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+/*#focus {*/
+    /*-webkit-transition: all .4s ease-in-out;*/
+    /*-moz-transition: all .4s ease-in-out;*/
+    /*-o-transition: all .4s ease-in-out;*/
+    /*-ms-transition: all .4s ease-in-out;*/
+/*}*/
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
