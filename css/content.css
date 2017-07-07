@@ -85,6 +85,14 @@ a {
     font-weight:bold;
 }
 
+/* DOCUMENTS */
+.docdiv li {
+    margin-top:10px;
+}
+
+.docdiv .card {
+    width:30rem;
+}
 
 /* F A Q */
 .faq li {
