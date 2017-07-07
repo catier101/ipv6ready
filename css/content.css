@@ -44,6 +44,10 @@ a {
     bottom: 20px;
 }
 
+.about_products li {
+    margin-bottom:10px;
+}
+
 /* NEWS PAGE*/
 .yearbtn {
     font-size:20px;
