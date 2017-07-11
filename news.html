@@ -92,27 +92,37 @@
 
 <div class="container">
     <div id="news-list">
-        <input type="text" class="search" />
+        <div class="row d-flex justify-content-end">
+            <div class="col-md-4 mr-auto">
+                <div class="input-group">
+                    <input type="text" class="search" placeholder="Search for...">
+                    <span class="input-group-btn">
+                        <button class="btn btn-secondary" type="button" id="search">Search</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <br>
         <ul class="list list-unstyled">
-            <li class="2017">
+            <li>
                 <p class="news-item">
-                <h3 class="news-title"><b>2017-03-20</b> | Now Available: IPv6 Ready Core Logo (New Minor Revision 4.0.7)</h3>
+                <h3 class="news-title year"><b>2017-03-20</b> | IPsec Major Public Review</h3>
                 <hr>
-                <p>The <a href="apply/ipv6-core-protocols.html">IPv6 Ready Core Conformance Test Specification</a> has been updated with some minor changes as per the below:</p>
+                <p>The IPsec Conformance Specification and Interoperability Scenario have undergone a Major Version.</p>
+                <p>The documents are under public review and dry run through <b>Monday 24th April 2017</b> with a planned release on <b>May 15, 2017</b>. </p>
+
+                <p>Summary of Changes:</p>
                 <ul>
-                    <li>Added a possible problem to 3.1.2B,D, 3.1.3 I-J, 3.1.4 H-I for devices that don’t support EUI-64 address due to privacy concerns.</li>
-                    <li>Removed requirement for the unused field in a Time Exceeded message (1.3.2B-D, 5.1.5A-B) to be zero due to RFC 4884.</li>
-                    <li>Added a requirement to check the Hop Limit of 255 in IPv6 Header of Redirect.</li>
-                    <li>Updated 4.1.8 to increase the hop limit due to attack vector if the device is forced to lower the hop limit.</li>
-                    <li>Added a possible problem to 2.1.1C for RFC 7048 support.</li>
-                    <li>Updated Unknown Destination Header from 7 to 17 since 7 has been allocated.</li>
-                    <li>Removed Common Test Setup from 3.2.5.</li>
-                </ul>
+                   <li>Remove Obsolete algorithms, and Add Recommended algorithms</li>
+                        <li>Renumber test cases and reorganize sections to consolidate ESP test cases and simplify future updates</li>
+                        <li>Require IKEv2 keying by default</li>
+                    </ul>
+                    <p>The updated  test documents can be found on the <a href="pr-ikev2ipsec.html">Public Review Page</a></p>
+                    <br>
                 </p>
             </li>
-            <br>
             <li><p class="news-item">
-                <h3 class="news-title"><b>2017-03-20</b> | Now Available: IPv6 Ready Core Logo (New Minor Revision 4.0.7)</h3>
+                <h3 class="news-title year"><b>2017-03-20</b> | Now Available: IPv6 Ready Core Logo (New Minor Revision 4.0.7)</h3>
                 <hr>
                 <p>The <a href="apply/ipv6-core-protocols.html">IPv6 Ready Core Conformance Test Specification</a> has been updated with some minor changes as per the below:</p>
                 <ul>
@@ -127,25 +137,21 @@
                 <br>
                 </p></li>
             <li><p class="news-item">
-                <h3 class="news-title"><b>2017-01-18</b> | Examination Fee Announcement</h3>
+                <h3 class="news-title year"><b>2017-01-18</b> | Examination Fee Announcement</h3>
+                <hr>
                 <p><b>IMPORTANT NOTE:</b> The IPv6 Ready Logo Committee would like to announce that CE Router applications received will be assessed a $1500 US dollar examination fee and all other applications will be assessed a $500 US dollar examination fee. The Examination lab may choose to waive this fee if the test results were performed at an approved lab as the fee may be covered under testing service fees.</p>
-
-                <div class="col-md-12 fixed-bottom float-right"></div>
-                <a class="btn btn-danger scroll_ubtn" id = "scroll_ubtn" href="#" type = "button">
-                    <i class="fa fa-chevron-up"></i>
-                </a>
                 <br>
             </p></li>
 
             <li><p class="news-item">
-                <h3 class="news-title"><b>2016-12-07</b> | Criterion Network Labs is an approved IPv6 Ready Logo Laboratory</h3>
+                <h3 class="news-title year"><b><span class="year">2016</span>-12-07</b> | Criterion Network Labs is an approved IPv6 Ready Logo Laboratory</h3>
                 <hr>
                 <p>Criterion Network Labs, an independent network interoperability test lab announced today the addition of IPv6 Ready Logo Certifications to the list of offerings. As an IPv6 Forum approved laboratory, CNLabs will undertake certification testing for network product vendors globally. </p>
                 <p><a href="http://www.prweb.com/releases/2016/12/prweb13901917.htm">Read Full Release Here</a></p>
                 <br>
             </p></li>
             <li><p class="news-item">
-                <h3 class="news-title"><b>2016-08-05</b> | CE Router Conformance Revision</h3>
+                <h3 class="news-title year"><b>2016-08-05</b> | CE Router Conformance Revision</h3>
                 <hr>
                 <p>The <a href="/apply/ipv6-core-protocols.html">IPv6 Ready Core Conformance Test Specification</a> has been updated with some minor changes as per the below:</p>
                 <p>A new revision of the IPv6 Ready CE Router Logo Conformance Specification is now available!</p>
@@ -155,14 +161,15 @@
                 <br>
             </p></li>
             <li><p class="news-item">
-                <h3 class="news-title"><b>2016-01-29 </b> | First Devices to Receive the IPv6 Router Logo</h3>
+                <h3 class="news-title year"><b>2016-01-29 </b> | First Devices to Receive the IPv6 Router Logo</h3>
                 <hr>
                 <p>DURHAM, N.H.--(BUSINESS WIRE)--The University of New Hampshire InterOperability Laboratory (UNH-IOL), an independent provider of broad-based testing and standards conformance services for the networking industry, announced today that four customer edge (CE) routers have been approved for the IPv6 Ready CE Router Logo. Devices from Broadcom, Netgear and ZTE passed the necessary IPv6 test cases, enabling them to bear a mark established by the IPv6 Ready Logo Committee (v6LC). The IPv6 Ready Logo indicates to service providers that IPv6 will work on those models, allowing end users to utilize the new addressing service. Total IPv6 traffic increased dramatically in July 2015, when the American Registry for Internet Numbers (ARIN) reported that North America had exhausted its IPv4 addresses. As consumer Internet of Things (IoT) technologies gain traction, a trend on display at CES 2016, IPv6 traffic is expected to continue rising.
                 </p>
                 <p><a href="http://www.businesswire.com/news/home/20160121005212/en/UNH-IOL-Announces-Devices-Receive-IPv6-CE-Router">Read Full Release Here</a></p>
                 <br>
             </p></li>
-            <li><p class="news-item"><h3 class="news-title"><b>2016-01-14</b> | CE Router Conformance and Interoperability Revision</h3>
+            <li><p class="news-item">
+                <h3 class="news-title year"><b>2016-01-14</b> | CE Router Conformance and Interoperability Revision</h3>
                 <hr>
                 <p>A new revision of the IPv6 Ready CE Router Logo Specifications is now available!</p>
                 <p><a href="apply/cpe.html">CE Router Documents</a></p>
@@ -172,7 +179,7 @@
                 <br>
                 </p></li>
             <li><p class="news-item">
-                <h3 class="news-title"><b>2015-09-02</b> | IPv6 Ready CE Router Logo Release</h3>
+                <h3 class="news-title year"><b>2015-09-02</b> | IPv6 Ready CE Router Logo Release</h3>
                 <hr>
                 <p>A new release for the IPv6 Ready CE Router Logo Specifications is now available!</p>
                 <p><a href="apply/cpe.html">CE Router Documents</a></p>
@@ -181,7 +188,7 @@
                 <p>Please send any comments in English to <b>ipv6ready-info [a t] ipv6ready.org</b></p>
                 <br>
             </p></li>
-            <li><p class="news-item"><h3 class="news-title"><b>2015-04-03</b> | IPv6 Ready CE Router Logo Release</h3>
+            <li><p class="news-item"><h3 class="news-title year"><b>2015-04-03</b> | IPv6 Ready CE Router Logo Release</h3>
                 <hr>
                 <p>A new release for the IPv6 Ready CE Router Logo Specifications is now available!</p>
                 <p><a href="apply/cpe.html">CE Router Documents</a></p>
@@ -190,7 +197,7 @@
                 <p>Please send any comments in English to <b>ipv6ready-info [a t] ipv6ready.org</b></p>
                 <br></p></li>
             <li><p class="news-item">
-                <h3 class="news-title"><b>2014-03-19 </b> | CE Router Logo is Launched!</h3>
+                <h3 class="news-title year"><b>2014-03-19 </b> | CE Router Logo is Launched!</h3>
                 <hr>
                 <p>PRESS RELEASE</p>
                 <p>"Is Your CPE IPv6 Ready?"</p>
@@ -222,7 +229,7 @@
                 <br>
             </p></li>
             <li><p class="news-item">
-                <h3 class="news-title"><b>2014-03-11</b> | Blog: IPv6 Ready Logo, USGv6 Test Program and RIPE 554</h3>
+                <h3 class="news-title year"><b>2014-03-11</b> | Blog: IPv6 Ready Logo, USGv6 Test Program and RIPE 554</h3>
                 <hr>
                 <p>The <a href="apply/ipv6-core-protocols.html">IPv6 Ready Core Conformance Test Specification</a> has been updated with some minor changes as per the below:</p>
                 <p>Successful IPv6 deployments are contingent on developing realistic requirements and taking advantage of robust testing programs. Outlined below are three programs that have stood the test of industry scrutiny. Not just checkbox exercises, these programs have set the bar for IPv6 technology validation. </p>
@@ -230,26 +237,33 @@
                 <br>
             </p></li>
             <li><p class="news-item">
-                <h3 class="news-title"><b>2014-02-26 </b> | Self-Test Tool: CE Router Conformance Public Review Started</h3>
+                <h3 class="news-title year"><b>2014-02-26 </b> | Self-Test Tool: CE Router Conformance Public Review Started</h3>
                 <hr>
                 <p>The Self-Test Tool for CE Router Conformance Test Specification v1.0.0b1 has been released for public review!    </p>
                 <p>Please see the announcement page for download link, documents, and more information.</p>
                 <br>
             </p></li>
-            <li><p class="news-item"><h3 class="news-title"><b>2014-02-03</b> | CE Router Conformance v1.0.0b1 Released</h3>
+            <li><p class="news-item"><h3 class="news-title year"><b>2014-02-03</b> | CE Router Conformance v1.0.0b1 Released</h3>
                 <hr>
                 <p>The CE Router Conformance Test Specification v1.0.0b1 has been posted for review!
                     Please see the Announcement Page for documents and more information.</p>
                 <br></p></li>
             <li><p class="news-item">
-                <h3 class="news-title"><b>2014-01-07 </b> | New Version: IPv6 Ready Logo White Paper</h3>
+                <h3 class="news-title year"><b>2014-01-07 </b> | New Version: IPv6 Ready Logo White Paper</h3>
                 <hr>
                 <p>The IPv6 Ready White Paper has been updated to reflect the latest Logo information including: test labs, approval list numbers and application processes. Please find the updated document on the
                     <a href="documents.html">Admin Page</a></p>
                 <br>
             </p></li>
         </ul>
-        <ul class="pagination"></ul>
+        <div class="row justify-content-md-center">
+            <ul class="pagination">
+            </ul>
+        </div>
+        <div class="col-md-12 fixed-bottom float-right"></div>
+        <a class="btn btn-danger scroll_ubtn" id = "scroll_ubtn" href="#" type = "button">
+            <i class="fa fa-chevron-up"></i>
+        </a>
     </div>
 </div>
 

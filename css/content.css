@@ -33,6 +33,7 @@ a {
 .pagination li {
     display:inline-block;
     padding:5px;
+    font-size:25px;
 }
 
 /* TOP OF PAGE CONTENT */
