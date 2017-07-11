@@ -30,6 +30,11 @@ a {
     color:dodgerblue;
 }
 
+.pagination li {
+    display:inline-block;
+    padding:5px;
+}
+
 /* TOP OF PAGE CONTENT */
 
 .jumbotron {
