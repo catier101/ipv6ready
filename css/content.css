@@ -120,8 +120,12 @@ a {
     margin-top:10px;
 }
 
-.docdiv .card {
-    width:30rem;
+.docdiv, a {
+    color:#5a5a5a;
+}
+
+.docdiv .card-header {
+    font-weight:bold;
 }
 
 /* F A Q */
@@ -140,10 +144,10 @@ a {
 
 /* HOVER TRANSITION */
 .transition {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
 }
 .card[id^=focus] {
     -webkit-transition: all .3s ease-in-out;
