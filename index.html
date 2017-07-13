@@ -80,7 +80,7 @@
         <p class="lead"> <a href="http://www.ipv6forum.com">The IPv6 Forum </a> IPv6 Ready Logo Program is a conformance and interoperability testing program intended to increase user confidence by demonstrating that IPv6 is available now and is ready to be used. </p>
     </div>
     <div class="col-md-5">
-        <img class="featurette-image img-fluid mx-auto d-block logo" src="imgs/logo.jpg" alt="Generic placeholder image">
+        <img class="featurette-image img-fluid mx-auto d-block logo" src="imgs/logo_ready_phase2.jpg" alt="Generic placeholder image">
     </div>
 </div>
 
@@ -121,15 +121,12 @@
 
 <footer class="footer">
     <div class="container text-center">
-        <script type="application/javascript">
-            $(function() {
-                $.getJSON("https://api.ipify.org?format=jsonp&callback=?",
-                    function(json) {
-                        document.write("My public IP address is: ", json.ip);
-                    }
-                );
-            });
+        <script>
+            $.get("http://ipinfo.io", function(response) {
+                alert(response.ip);
+            }, "jsonp");
         </script>
+    </div>
 
 </footer>
 
