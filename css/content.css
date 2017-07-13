@@ -115,10 +115,6 @@ a {
     color:#5a5a5a;
 }
 
-.resources .card-header {
-    font-weight:bold;
-}
-
 .resources .list-unstyled a {
     color:dodgerblue;
 }
@@ -131,6 +127,12 @@ a {
 .t-head {
     font-weight:bold;
 }
+
+.resources .card-header {
+    background-color:white;
+    padding:.58rem 1.2rem;
+}
+
 
 
 /* F A Q */
