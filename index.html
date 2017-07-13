@@ -17,6 +17,9 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis|Open+Sans+Condensed:300|Monda:700" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
+
+    <script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+
 </head>
 
 <body>
@@ -118,7 +121,16 @@
 
 <footer class="footer">
     <div class="container text-center">
-        <span class="ip"> Your IP address is <script type="text/javascript" src="http://www.snaphost.com/tools/ip.aspx"></script> </span>    </div>
+        <script type="application/javascript">
+            $(function() {
+                $.getJSON("https://api.ipify.org?format=jsonp&callback=?",
+                    function(json) {
+                        document.write("My public IP address is: ", json.ip);
+                    }
+                );
+            });
+        </script>
+
 </footer>
 
 <div class="col-md-12 fixed-bottom float-right"></div>
