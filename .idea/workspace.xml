@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="351a75ac-2a4f-4808-a5ce-c0ba25ae5b9b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/content.css" afterPath="$PROJECT_DIR$/css/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.html" afterPath="$PROJECT_DIR$/resources.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,18 +21,18 @@
       <file leaf-file-name="resources.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="466" column="7" lean-forward="false" selection-start-line="466" selection-start-column="7" selection-end-line="466" selection-end-column="7" />
+            <state relative-caret-position="415">
+              <caret line="152" column="170" lean-forward="false" selection-start-line="152" selection-start-column="170" selection-end-line="152" selection-end-column="170" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ipv6-core-protocols.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apply/ipv6-core-protocols.html">
+      <file leaf-file-name="dhcpv6.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apply/dhcpv6.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="100" column="57" lean-forward="true" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="57" />
+            <state relative-caret-position="270">
+              <caret line="96" column="61" lean-forward="false" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -288,12 +286,12 @@
       <updated>1499347509025</updated>
       <workItem from="1499347511392" duration="16841000" />
       <workItem from="1499778305700" duration="17933000" />
-      <workItem from="1499880862786" duration="9222000" />
+      <workItem from="1499880862786" duration="10113000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43996000" />
+    <option name="totallyTimeSpent" value="44887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1537" height="912" extended-state="6" />
@@ -500,14 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apply/ipv6-core-protocols.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="100" column="57" lean-forward="true" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/content.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
@@ -516,10 +506,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/apply/ipv6-core-protocols.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="176" column="12" lean-forward="true" selection-start-line="114" selection-start-column="4" selection-end-line="176" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apply/dhcpv6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="96" column="61" lean-forward="false" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="466" column="7" lean-forward="false" selection-start-line="466" selection-start-column="7" selection-end-line="466" selection-end-column="7" />
+        <state relative-caret-position="415">
+          <caret line="152" column="170" lean-forward="false" selection-start-line="152" selection-start-column="170" selection-end-line="152" selection-end-column="170" />
           <folding />
         </state>
       </provider>
