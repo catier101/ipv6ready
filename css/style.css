@@ -33,8 +33,9 @@ a {
 /* TOP OF PAGE CONTENT */
 
 .jumbotron {
+    min-width:100%;
     font-family: 'Open Sans Condensed', sans-serif;
-    background-image: url("../imgs/stock-vector-world-map-point-line-composition-representing-the-global-global-network-connection-522610708.jpg");
+    background-image: url("../imgs/bgEdit2.jpg");
     /*background-image: url("../imgs/stock-vector-world-map-point-line-surface-composition-representing-the-global-global-network-connection-358543160.jpg");*/
     background-size: cover;
 }
@@ -123,5 +124,10 @@ a {
     .display-3 {
         font-size:45px;
         margin-top:20%;
+    }
+
+    .scroll_dbtn {
+        font-size:15px;
+        bottom:0;
     }
 }
